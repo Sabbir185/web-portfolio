@@ -1,5 +1,10 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
+
+}
+p{
+    color: rgb(92, 90, 90);
 }
 h1{
     font-size: 50px;
@@ -7,6 +12,20 @@ h1{
 h3{
     font-size:35px;
 }
+
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(247, 147, 136),tomato);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
 .half-width > p{
     text-align: justify;
 }
@@ -21,4 +40,15 @@ h3{
 }
 .half-width img{
     width: 100%;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.dream-area h2{
+    font-size: 35px;
+}
+.dream-area h3{
+    font-size: 25px;
 }
