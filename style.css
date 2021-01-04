@@ -52,3 +52,9 @@ section{
 .dream-area h3{
     font-size: 25px;
 }
+
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
